@@ -233,13 +233,16 @@ body{
 	height: 50px;
 	background: linear-gradient(to right, #87aff1 1%,#6c80cb 100%);
 	border-radius: 3px;
+	box-shadow: 0 12px 20px rgba(108, 129, 203, 0.459);
+	padding: 17px 0 0 0;
+	text-align: center;
+}
+.btn a{
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 16px;
 	font-weight: 600;
-	text-align: center;
-	padding: 17px 0 0 0;
-	box-shadow: 0 12px 20px rgba(108, 129, 203, 0.459);
+
 }
 .column2 {
 	display: inline-block;
