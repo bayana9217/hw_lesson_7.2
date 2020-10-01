@@ -1,0 +1,285 @@
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Heavy.woff2') format('woff2'),
+        url('../fonts/Gilroy-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('../fonts/Gilroy-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-SemiBold.woff2') format('woff2'),
+        url('../fonts/Gilroy-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+        url('../fonts/Gilroy-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing:border-box;
+}
+ol li,
+ul li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+
+html,
+body{
+	height: 100%;
+	font-size: 14px;
+   line-height: 1;
+	font-family: "Gilroy";
+	color: #333333;
+}
+/* -------------- */
+
+.wrapper{
+	overflow: hidden;
+	min-height: 100%;
+}
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+.block{
+	background: url("../img/bg.png") 50% / cover no-repeat;
+	min-height: 720px;
+}
+
+.header {
+	padding: 30px 0 20px 0;
+	background: #F6F6F6;
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.267);
+}
+
+.headerlogo {
+	display: inline-block;
+	font-size: 60px;
+	font-weight: 700;
+	color: #E1E1E1;
+}
+.headerslash {
+	height: 40px;
+	width: 3px;
+	background-color: #89AFEF;
+	display: inline-block;
+	margin: 0 25px;
+}
+.headertitle {
+	color: #5D5D5D;
+	max-width: 180px;
+	display: inline-block;
+	text-transform: lowercase;
+}
+.headertoils {
+	display: inline-block;
+	padding: 0 60px 0 70px;
+}
+.whatsapp {
+	display: inline-block;
+	width: 43px;
+	height: 43px;
+	border-radius: 50%;
+	margin: 0 18px 0 0;
+	background: #2DD038 url("../img/whatsapp-logo.png") center no-repeat;
+	box-shadow: 0 8px 25px #2dd0388a;
+}
+.viber {
+	display: inline-block;
+	width: 43px;
+	height: 43px;
+	border-radius: 50%;
+	margin: 0 18px 0 0;
+	background: #7B519D url("../img/viber-logo.png") center no-repeat;
+	box-shadow: 0 8px 25px #7b519d8a;
+}
+.telegram {
+	display: inline-block;
+	width: 43px;
+	height: 43px;
+	border-radius: 50%;
+	margin: 0 15px 0 0;
+	background: #5BBAF0 url("../img/telegram.png") center no-repeat;
+	box-shadow: 0 8px 25px #5bb9f08a;
+}
+.phonemail {
+	display: inline-block;
+}
+.phonemail a{
+	padding: 0 0 0 20px;
+	line-height: 28px;
+	color: #333333;
+}
+.phone {
+	font-size: 20px;
+	font-weight: 700;
+	background: url("../img/phone.png") left no-repeat;
+	
+}
+.mail {
+	margin: 0 0 0 23px;
+	font-size: 17px;
+	background: url("../img/mail.png") left no-repeat;
+}
+.headerbtn{
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 0 0 30px;
+	}
+.button {
+	display: inline-block;
+	padding: 12px 20px 10px 20px;
+	font-weight: 600;
+	font-size: 18px;
+	color: #fff;
+	min-width: 195px;
+	min-height: 44px;
+	border-radius: 3px;
+	background: linear-gradient(to right, #f6bd60 1%,#f5ab66 47%,#ef8d31 100%);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.247);
+}
+
+.menu {
+	margin: 40px 0 0 0;	
+}
+.menu li{
+	display: inline-block;
+	margin: 0 43px 0 0;
+	font-size: 0;
+}
+.menulink{
+	font-weight: 500;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #333333;
+}
+
+.main{
+	margin: 76px 0 70px 0;
+	
+}
+.block {
+	background: url("../img/group2.png") 50% 0 / 1146px 376px no-repeat;
+	min-height: 376px;
+	margin: 0 0 34px 0;
+}
+
+.column1 {
+	display: inline-block;
+	max-width: 167px;
+	font-weight: 500;
+	margin: 40px 76px 40px 40px;
+}
+.column1 p{
+	margin: 0 0 20px 0;
+	line-height: 1.5;
+	text-align: center;
+}
+.price {
+	font-size: 36px;
+	font-weight: 900;
+	color: #87B0EE;
+	border-bottom: 2px solid #87B0EE;
+}
+.days {
+	font-weight: 700;
+}
+.btn {
+	width: 178px;
+	height: 50px;
+	background: linear-gradient(to right, #87aff1 1%,#6c80cb 100%);
+	border-radius: 3px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 600;
+	text-align: center;
+	padding: 17px 0 0 0;
+	box-shadow: 0 12px 20px rgba(108, 129, 203, 0.459);
+}
+.column2 {
+	display: inline-block;
+	max-width: 475px;
+	line-height: 1.2;
+	margin: 74px 0 0px 0;
+	
+	vertical-align: top;
+}
+.column2 h1{
+	font-size: 40px;
+	font-weight: 900;
+	margin: 0 0 20px 0;
+}
+.column2 p{
+	line-height: 25px;
+	font-size: 17px;
+}
+.block2{
+	font-size: 18px;
+}
+.block2 h2{
+	font-size: 24px;
+	font-weight: 800;
+	margin: 0 0 25px 0;
+}
+.block2 h3{
+	font-size: 19px;
+	font-weight: 700;
+	margin: 0 0 25px 0;
+}
+.block2 p{
+	margin: 0 0 34px 0;
+	line-height: 25px;
+}
+.list{
+	margin: 0 0 0 55px;
+}
+.list li{
+	background: url("../img/oval.png") 0 11px no-repeat;
+	padding: 0 0 0 25px;
+	line-height: 30px;
+}
